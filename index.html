@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test Page with Chat Widget</title>
+  </head>
+  <body>
+    <h1>Welcome to the Test Page</h1>
+    <div style="display: flex; flex-direction: column; gap: 1rem">
+      <p>
+        This is a paragraph of text. You can add more content here as needed.
+      </p>
+      <div
+        style="
+          background-color: lightgray;
+          padding: 1rem;
+          border-radius: 0.5rem;
+        "
+      >
+        <p>
+          This is a card with some content. You can customize the styling and
+          add more elements.
+        </p>
+      </div>
+      <div style="display: flex; gap: 1rem">
+        <div
+          style="
+            background-color: lightblue;
+            padding: 1rem;
+            border-radius: 0.5rem;
+          "
+        >
+          <p>Item 1</p>
+        </div>
+        <div
+          style="
+            background-color: lightgreen;
+            padding: 1rem;
+            border-radius: 0.5rem;
+          "
+        >
+          <p>Item 2</p>
+        </div>
+      </div>
+    </div>
+    <div style="display: flex; gap: 1rem; justify-content: flex-end">
+      <div
+        style="
+          background-color: rgb(218 112 214);
+          padding: 1rem;
+          border-radius: 0.5rem;
+        "
+      >
+        <p>Item 3</p>
+      </div>
+      <div
+        style="
+          background-color: lightyellow;
+          padding: 1rem;
+          border-radius: 0.5rem;
+        "
+      >
+        <p>Item 4</p>
+      </div>
+    </div>
+
+    <div style="display: flex; gap: 1rem; justify-content: flex-end"></div>
+      <div
+        style="
+          background-color: rgb(218 112 214);
+          padding: 1rem;
+          border-radius: 0.5rem;
+        "
+      >
+        <p>Item 3</p>
+      </div>
+      <div
+        style="
+          background-color: lightyellow;
+          padding: 1rem;
+          border-radius: 0.5rem;
+        "
+      >
+        <p>Item 4</p>
+      </div>
+    </div>
+    <div style="display: flex; gap: 1rem; justify-content: flex-end"></div>
+      <div
+        style="
+          background-color: rgb(218 112 214);
+          padding: 1rem;
+          border-radius: 0.5rem;
+        "
+      >
+        <p>Item 3</p>
+      </div>
+      <div
+        style="
+          background-color: lightyellow;
+          padding: 1rem;
+          border-radius: 0.5rem;
+        "
+      >
+        <p>Item 4</p>
+      </div>
+    </div>
+
+    <!-- Embed Chat Widget with parameters -->
+    <!-- <script src='https://p2-club.jai.cx/embed.js'></script> -->
+    <script
+    src="http://localhost:3001/embed.js"
+    data-user-id="12345"
+    data-theme="dark"
+    data-initial-message="Welcome! How can we help?"
+  ></script>
+    <!-- <script>
+      // Toggle chat open/closed
+      ChatWidgetController.toggle();
+
+      // Minimize chat
+      ChatWidgetController.minimize();
+
+      // Send a message programmatically
+      ChatWidgetController.sendMessage("Hello, support!");
+    </script> -->
+  </body>
+</html>
